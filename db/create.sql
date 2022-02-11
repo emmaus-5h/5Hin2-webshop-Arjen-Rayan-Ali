@@ -7,7 +7,8 @@ CREATE TABLE products (
   code VARCHAR(15),
   name VARCHAR(255),
   description TEXT,
-  price NUMERIC(10, 2)
+  price NUMERIC(10, 2),
+  fabric TEXT
 );
 
 
@@ -20,10 +21,10 @@ CREATE TABLE products (
 -- want different data? check: https://www.mockaroo.com/910b6c20
 --
 
-insert into products (name, description, code, price) values ('t-shirt', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id.', '816905633-0', 10.5);
-insert into products (name, description, code, price) values ('Post Mortem', 'Nulla ut erat id mauris vulputate elementum. Nullam varius.', '077030122-3', 11);
-insert into products (name, description, code, price) values ('Scarlet and the Black, The', 'Pellentesque at nulla. Suspendisse potenti.', '445924201-X', 13.5);
-insert into products (name, description, code, price) values ('Aquí llega Condemor, el pecador de la pradera', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.', '693155505-7', 13.5);
-insert into products (name, description, code, price) values ('Kiss for Corliss, A (Almost a Bride)', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', '686928463-6', 14);
-insert into products (name, description, code, price) values ('Velvet Goldmine', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.', '492662523-7', 14);
+insert into products (name, description, code, price, fabric) values ('Nice T-shirt', 'Het Nice shirt is heerlijk en comfortabel.', '816905633-0', 34.99, 'katoen');
+insert into products (name, description, code, price, fabric) values ('Nice airforce ones', 'De Nice airforce ones zijn de beste schoenen die je maar kunt wensen', '077030122-3', 49.99, 'synthetisch leer'); 
+insert into products (name, description, code, price, fabric) values ('Nice Performance trainingspak', 'Het Nice Performance trainingspak is het meest comfortabele trainingspak ter wereld.', '445924201-X', 80, 'synthetisch textiel');
+insert into products (name, description, code, price, fabric) values ('Nice bril', 'Deze bril is zo modieus, dat iedereen erbij neervalt.', '693155505-7', 99.99, 'glas');
+insert into products (name, description, code, price, fabric) values ('Nice schoudertas', 'Je kunt in de Nice schoudertas alles stoppen.', '686928463-6', 29.99, 'leer');
+insert into products (name, description, code, price, fabric) values ('Nice pet', 'Te veel last van de zon? Deze pet is dan geschikt voor jou.', '492662523-7', 24.99, 'katoen');
 
