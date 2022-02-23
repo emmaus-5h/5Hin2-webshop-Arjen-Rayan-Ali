@@ -37,11 +37,18 @@ CREATE TABLE model (
 -- want different data? check: https://www.mockaroo.com/910b6c20
 --
 
+  /* T-shirts */
 insert into products (name, description, code, price, fabric_id, rating_id, model_id) values ('Nice T-shirt', 'Het Nice shirt is heerlijk en comfortabel.', '816905633-0', 34.99, 1, 1, 1);
 insert into products (name, description, code, price, fabric_id, rating_id, model_id) values ('Nice T-shirt', 'Het Nice shirt is heerlijk en comfortabel.', '816905633-0', 34.99, 2, 1, 2);
 insert into products (name, description, code, price, fabric_id, rating_id, model_id) values ('Nice T-shirt', 'Het Nice shirt is heerlijk en comfortabel.', '816905633-0', 34.99, 4, 1, 3);
+insert into products (name, description, code, price, fabric_id, rating_id, model_id) values ('Nice T-shirt', 'Het Nice shirt is heerlijk en comfortabel.', '816905633-0', 34.99, 4, 1, 4);
+
+  /* Schoenen */
 insert into products (name, description, code, price, fabric_id, rating_id, model_id) values ('Nice Schoenen', 'De Nice airforce ones zijn de beste schoenen die je maar kunt wensen', '077030122-3', 49.99, 3, 4, 1); 
 insert into products (name, description, code, price, fabric_id, rating_id) values ('Nice Schoenen', 'De Nice airforce ones zijn de beste schoenen die je maar kunt wensen', '077030122-3', 49.99, 4, 4, 4); 
+insert into products (name, description, code, price, fabric_id, rating_id) values ('Nice Schoenen', 'De Nice airforce ones zijn de beste schoenen die je maar kunt wensen', '077030122-3', 49.99, 4, 4, 2); 
+
+  /* Trainingspakken */
 insert into products (name, description, code, price, fabric_id, rating_id, model_id) values ('Nice trainingspak', 'Het Nice Performance trainingspak is het meest comfortabele trainingspak ter wereld.', '445924201-X', 80, 4, 3, 3);
 insert into products (name, description, code, price, fabric_id, rating_id, model_id) values ('Nice trainingspak', 'Het Nice Performance trainingspak is het meest comfortabele trainingspak ter wereld.', '445924201-X', 80, 1, 3, 2);
 /*insert into products (name, description, code, price, fabric_id, rating_id) values ('Nice bril', 'Deze bril is zo modieus, dat iedereen erbij neervalt.', '693155505-7', 99.99, , 1); */
