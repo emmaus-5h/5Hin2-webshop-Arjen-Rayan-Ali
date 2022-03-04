@@ -84,8 +84,32 @@ insert into model (name) values ("Performance");
 insert into model (name) values ("Tech");
 insert into model (name) values ("Jordans");
 
+/* kleuren */
 insert into color (name) values ("wit");
 insert into color (name) values ("zwart");
 
+
+/* kleuren van producten */
 INSERT INTO color_couples (product, color) values (1, 1);
 INSERT INTO color_couples (product, color) values (1, 2);
+INSERT INTO color_couples (product, color) values (2, 1);
+INSERT INTO color_couples (product, color) values (2, 2);
+INSERT INTO color_couples (product, color) values (3, 1);
+INSERT INTO color_couples (product, color) values (3, 2);
+INSERT INTO color_couples (product, color) values (4, 1);
+INSERT INTO color_couples (product, color) values (4, 2);
+
+INSERT INTO color_couples (product, color) values (5, 1);
+INSERT INTO color_couples (product, color) values (5, 2);
+INSERT INTO color_couples (product, color) values (6, 1);
+INSERT INTO color_couples (product, color) values (6, 2);
+INSERT INTO color_couples (product, color) values (7, 1);
+INSERT INTO color_couples (product, color) values (7, 2);
+
+INSERT INTO color_couples (product, color) values (8, 1);
+INSERT INTO color_couples (product, color) values (8, 2);
+INSERT INTO color_couples (product, color) values (9, 1);
+INSERT INTO color_couples (product, color) values (9, 2);
+
+INSERT INTO color_couples (product, color) values (10, 1);
+INSERT INTO color_couples (product, color) values (10, 2);
